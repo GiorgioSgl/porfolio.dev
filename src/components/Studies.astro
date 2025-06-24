@@ -1,0 +1,30 @@
+---
+import EducationItem from "./EducationItem.astro"
+
+const EDUCATION = [
+  {
+    date: "2019 - 2021",
+    title: "Master’s in Data Science",
+    institution: "UPM (Madrid) & ELTE (Budapest)",
+    description:
+      "Double degree program with a strong focus on machine learning, big data processing, and statistical modeling.",
+  },
+  {
+    date: "2016 - 2019",
+    title: "Bachelor’s in Computer Science",
+    institution: "University of Trento",
+    description:
+      "Solid foundation in software engineering, algorithms, and systems programming.",
+  },
+];
+---
+
+<ol class="relative mt-16">
+  {
+    EDUCATION.map((education) => (
+      <li class="">
+        <EducationItem {...education} />
+      </li>
+    ))
+  }
+</ol>
