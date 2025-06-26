@@ -1,27 +1,25 @@
-# 👨🏻‍💻 Porfolio para programadores y desarrolladores
+# Portfolio Giorgio Segalla
 
-<div align="center">
-<a href="https://porfolio.dev/">
-<img src="./public/porfolio.webp">
-</a>
-<p></p>
-</div>
+A simple portfolio about me.
+[https://tu-sitio-web.com](https://giorgiosegallaportfolio.netlify.app/)
 
-<div align="center">
 
-![Astro Badge](https://img.shields.io/badge/Astro-FF3E00?logo=astro&logoColor=fff&style=flat)
-![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=flat)
-![GitHub stars](https://img.shields.io/github/stars/midudev/porfolio.dev)
-![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/porfolio.dev)
-![GitHub forks](https://img.shields.io/github/forks/midudev/porfolio.dev)
-![GitHub issues](https://img.shields.io/github/issues/midudev/porfolio.dev)
+## How to start
 
-</div>
+1. Install the required modules:
 
-## 🫂 Contribuidores
+```bash
+npm install
+```
 
-<a href="https://github.com/midudev/porfolio.dev/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=midudev/porfolio.dev" />
-</a>
+2. Run the porject:
 
-<p></p>
+```bash
+npm run dev
+```
+
+npm run dev
+
+## Deploy on netlify
+
+When you push to the main branch, the project will be automatically deployed on Netlify.
