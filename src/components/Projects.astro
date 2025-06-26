@@ -19,21 +19,20 @@ const TAGS = {
 }
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
+    title: "🐦 Daily Stock Market Recap Bot",
     description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
-    image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "An automated bot that posts daily updates on major global stock indices—covering Europe, America, and Asia-Pacific—directly to Twitter. It summarizes market movements with simple visuals and short AI-generated commentary, making financial news accessible and easy to follow for everyone.",
+    link: "https://x.com/hoy_mercado",
+    github: "https://github.com/world-stock-market/apiMercadoHoy",
+    image: "/projects/mercado_hoy.webp",
   },
   {
-    title: "AdventJS - Retos de programación con JavaScript y TypeScript",
+    title: "📂 Filespeak – Chat with Your Documents",
     description:
-      "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://adventjs.dev",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "Filespeak is a FastAPI-powered backend that lets you upload documents and ask questions about them using natural language. With OpenAI and ChromaDB under the hood, it turns your files into searchable knowledge through a clean web UI and a smart chat interface.",
+    link: "https://filespeak-backend.fly.dev/",
+    github: "https://github.com/GiorgioSgl/filespeak-backend",
+    image: "/projects/filespeak.webp",
   },
 ]
 ---
@@ -53,7 +52,7 @@ const PROJECTS = [
       {title}
     </h3>
     <div class="flex flex-wrap mt-2">
-      <ul class="flex flex-row mb-2 gap-x-2">
+      <!-- <ul class="flex flex-row mb-2 gap-x-2">
           {tags.map((tag) => (
             <li>
               <span
@@ -64,7 +63,7 @@ const PROJECTS = [
               </span>
             </li>
           ))}
-        </ul>
+        </ul> -->
 
       <div class="mt-2 text-gray-700 dark:text-gray-400">{description}</div>
       <footer class="flex items-end justify-start mt-4 gap-x-4">
