@@ -1,8 +1,6 @@
 # Portfolio Giorgio Segalla
 
-A simple portfolio about me.
-[https://tu-sitio-web.com](https://giorgiosegallaportfolio.netlify.app/)
-
+A simple [portfolio](https://giorgiosegallaportfolio.netlify.app/) about me.
 
 ## How to start
 
